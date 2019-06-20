@@ -34,7 +34,7 @@ public class MonsterController : MonoBehaviour
 
   void Start()
   {
-    anim = GetComponent<Animator>();
+    anim = GetComponentInChildren<Animator>();
     navMeshAgent = GetComponent<NavMeshAgent>();
     aiWander = GetComponent<AIWander>();
     aiChasePlayer = GetComponent<AIChasePlayer>();
