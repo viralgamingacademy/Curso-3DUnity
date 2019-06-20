@@ -1,8 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
-namespace PvZInitial
-{
+
   public class Singleton<T> : MonoBehaviour where T : Singleton<T>
   {
     /*
@@ -139,4 +138,3 @@ namespace PvZInitial
     }
     private static T _mInstance;
   }
-}

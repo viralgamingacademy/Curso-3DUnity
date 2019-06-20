@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace PvZInitial
-{
+
   public class ContainerObjectServiceLocator : Singleton<ContainerObjectServiceLocator>
   {
     public static ContainerObjectServiceLocator Instance
@@ -17,16 +16,13 @@ namespace PvZInitial
       }
     }
 
-    public Transform managers;
+    public Transform manager;
     public Transform scenery;
-    public Transform plants;
-    public Transform zombies;
-    public Transform projectiles;
-    public Transform interactives;
+   
+    public Transform interactive;
     public new Transform camera;
     public Transform hud;
     public new Transform audio;
 
 
   }
-}

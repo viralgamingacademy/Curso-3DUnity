@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace PvZInitial
-{
-  public class PlaySound : MonoBehaviour
+
+public class PlaySound : MonoBehaviour
   {
     private List<AudioSource> listCurAudioPlaying = new List<AudioSource>();
 
@@ -39,4 +38,3 @@ namespace PvZInitial
 
     }
   }
-}
