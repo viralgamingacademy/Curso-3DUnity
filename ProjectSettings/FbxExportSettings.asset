@@ -8,7 +8,7 @@
         "launchAfterInstallation": false,
         "HideSendToUnityMenu": false,
         "BakeAnimation": true,
-        "integrationSavePath": "G:/Projects/CursoIMS-3DUnity/Assets/3ds Unity Integration",
+        "integrationSavePath": "N:/Unity/CursoIMS-3DUnity",
         "selectedDCCApp": 0,
         "prefabSavePaths": [
             "."
@@ -22,11 +22,11 @@
             "3ds Max 2019"
         ],
         "dccOptionPaths": [
-            "G:/Programs/3ds Max 2019/3dsmax.exe"
+            "N:/Programas/Autodesk/3ds Max 2019/3dsmax.exe"
         ],
         "exportModelSettingsSerialize": {
             "exportFormat": 0,
-            "animatedSkinnedMesh": false,
+            "animatedSkinnedMesh": true,
             "mayaCompatibleNaming": true,
             "include": 2,
             "lodLevel": 0,
