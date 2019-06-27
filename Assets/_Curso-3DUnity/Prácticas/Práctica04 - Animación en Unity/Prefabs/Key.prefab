@@ -9426,6 +9426,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8794129508217793749}
+  - component: {fileID: 7181307530848835860}
+  - component: {fileID: 1165697477624754072}
+  - component: {fileID: 6948300679926532157}
   m_Layer: 0
   m_Name: Key
   m_TagString: Untagged
@@ -9451,6 +9454,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -82.103004, y: 0, z: 0}
+--- !u!65 &7181307530848835860
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5499000600048492230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 3}
+  m_Center: {x: 0, y: 0, z: 1}
+--- !u!114 &1165697477624754072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5499000600048492230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6041c05c24b8534f8a25a402cb70a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPlayerInteracted:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: OnPlayerInteracted, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &6948300679926532157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5499000600048492230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d009f0b8d3bc034885cb5808ae78347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 0}
 --- !u!1 &7863159784317338174
 GameObject:
   m_ObjectHideFlags: 0
